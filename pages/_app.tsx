@@ -2,7 +2,7 @@ import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 
-import "./global.css";
+import "../styles/global.css";
 
 export default function App ({ Component, pageProps }: AppProps) {
     const router = useRouter();

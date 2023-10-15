@@ -33,9 +33,6 @@ header .header-items .header-item {
     transition-duration: 500ms;
 }
 
-.logo-image {
-}
-
 .logo:hover {
     transition: ease-in-out;
     transition-duration: 500ms;
