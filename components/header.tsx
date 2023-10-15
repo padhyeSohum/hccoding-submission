@@ -1,6 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import LogoLight from '../public/logo-light.png';
 
 export default function Header () {
+
     const links = [
         {
             link: "/",
@@ -27,7 +30,17 @@ export default function Header () {
     return (
         <header>
             <div className="logo">
-                <Link href="/">logologo</Link>
+                <Link 
+                    href="/"
+                    className=""
+                >
+                        <Image 
+                            src={LogoLight}
+                            width={65}
+                            height={65}
+                            alt="Logo"
+                        />
+                </Link>
             </div>
             <div className="header-items">
 

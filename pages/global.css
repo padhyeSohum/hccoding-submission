@@ -16,21 +16,37 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    /* padding: 1em; */
+    background-color: rgba(238, 238, 238, 0.4);
 }
 
 header .header-items {
     display: flex;
 }
 
-header .header-items .header-item, .logo {
-    padding: 1em 2em;
+header .header-items .header-item {
+    padding: 2em 2em;
+}
+
+.logo {
+    margin: auto 2em;
+    transition-duration: 500ms;
+}
+
+.logo-image {
+}
+
+.logo:hover {
+    transition: ease-in-out;
+    transition-duration: 500ms;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .header-item {
     transition: 400ms;
-    border-radius: 10px;
-    margin: 0 0.25em;
+    width: 8em;
+    text-align: center;
 }
 
 .header-item:hover {
@@ -48,7 +64,7 @@ a {
 
 h1 {
     position: absolute;
-    top: 10%;
+    top: 17.5%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
