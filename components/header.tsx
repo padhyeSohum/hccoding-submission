@@ -29,6 +29,7 @@ export default function Header () {
 
     return (
         <header>
+            <title>SAAS</title>
             <div className="logo">
                 <Link 
                     href="/"
