@@ -12,11 +12,13 @@ export default function Home () {
                     isolate if you have any symptoms.
                 </p>
                 <div className="link-to-screener-container">
-                    <Link href="/screener" className="link-to-screener">
-                        <p>
-                            Screen yourself for COVID-19.
-                        </p>
-                    </Link>
+                    <div className="link-to-screener">
+                        <Link href="/screener" className="">
+                            <p>
+                                Screen yourself for COVID-19.
+                            </p>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </Page>
