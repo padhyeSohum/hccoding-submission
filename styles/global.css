@@ -198,3 +198,27 @@ p {
     transition: all ease-in-out;
     transition-duration: 400ms;
 }
+
+.screener-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.screener-message {
+    width: 50%;
+    line-height: 2;
+    text-align: center;
+    transition: all ease-in-out;
+    transition-duration: 400ms;
+}
+
+
+.screener-message-link:hover {
+    text-decoration: underline;
+}
