@@ -7,22 +7,22 @@ export default function Header () {
     const links = [
         {
             link: "/",
-            name: "Home",
+            navbarTitle: "Home",
             key: "home",
         },
         {
             link: "/team",
-            name: "Team",
+            navbarTitle: "Team",
             key: "team",
         },
         {
             link: "/contact",
-            name: "Contact",
+            navbarTitle: "Contact",
             key: "contact",
         },
         {
             link: "/screener",
-            name: "Screener",
+            navbarTitle: "Screener",
             key: "screener",
         },
     ]
@@ -30,12 +30,6 @@ export default function Header () {
     return (
         <header>
             <title>SAAS</title>
-            <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-                <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-
-            </head>
             <div className="logo">
                 <Link 
                     href="/"
@@ -51,13 +45,13 @@ export default function Header () {
             </div>
             <div className="header-items">
 
-                {links.map(({link, name, key}) => 
+                {links.map(({link, navbarTitle, key}) => 
                     <Link 
                         href={link}
                         key={key}
                         className="header-item"
                     >
-                        {name}
+                        {navbarTitle}
                     </Link>
                 )}
             </div>
