@@ -12,7 +12,7 @@ export default function Home () {
                     personalised tips based on your response.  Feel free to reach out on our Contact page 
                     for any questions or comments. Staying informed, as well as practicing preventive measures can help 
                     us stay healthy as a community. Let&#39;s prioritise health, promote awareness, and learn how to combat 
-                    the symptoms we are feeling in this flu season. <br /><Link href="/screener"><p className="text-inside-opening-message-link">Screen yourself for COVID-19 now.</p></Link>
+                    the symptoms we are feeling in this flu season. <br /><Link href="/screener">Screen yourself for COVID-19 now.</Link>
                 </p>
             </div>
         </Page>

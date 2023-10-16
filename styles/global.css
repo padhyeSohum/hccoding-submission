@@ -227,6 +227,7 @@ p {
     line-height: 1;
     transition: all ease-in-out;
     transition-duration: 400ms;
+    text-decoration: underline;
 }
 
 .text-inside-opening-message-link:hover {
