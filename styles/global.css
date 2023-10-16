@@ -127,9 +127,9 @@ p {
 }
 
 .opening-message {
-    width: 40%;
+    width: 60%;
     line-height: 2;
-    text-align: justify;
+    text-align: center;
     transition: all ease-in-out;
     transition-duration: 400ms;
 }
@@ -221,4 +221,15 @@ p {
 
 .screener-message-link:hover {
     text-decoration: underline;
+}
+
+.text-inside-opening-message-link {
+    line-height: 1;
+    transition: all ease-in-out;
+    transition-duration: 400ms;
+}
+
+.text-inside-opening-message-link:hover {
+    transition-duration: 400ms;
+    color: #EEEEEE;
 }
