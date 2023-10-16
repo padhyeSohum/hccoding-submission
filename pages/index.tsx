@@ -7,9 +7,12 @@ export default function Home () {
             <h1>Welcome</h1>
             <div className="hero">
                 <p className="opening-message">
-                    We are a team that would like to raise awareness about COVID-19 in the public. Although the world 
-                    can be seen as winning in its fight against COVID-19, it is still important to keep safe and
-                    isolate if you have any symptoms.
+                    As we navigate the current flu season and the new covid variant, health and safety is crucial. 
+                    Complete our Covid 19 screening form to keep yourself and others safe, as well as receive 
+                    personalised tips based on your response.  Feel free to reach out on our "Contact Us" page 
+                    for any questions or comments. Staying informed, as well as practicing preventive measures can help 
+                    us stay healthy as a community. Let's prioritise health, promote awareness, and learn how to combat 
+                    the symptoms we are feeling in this flu season.
                 </p>
                 <div className="link-to-screener-container">
                     <div className="link-to-screener">

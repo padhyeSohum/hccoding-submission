@@ -8,7 +8,7 @@ ALL PAGES
     box-sizing: border-box;
     color: #000000;
     font-weight: 1000;
-    /* user-select: none; */
+    user-select: none;
 }
 
 html, body {
@@ -16,6 +16,7 @@ html, body {
     height: 100vh;
     font-family: "Tahoma", sans-serif;
     background-image: url("../public/background-image.jpg");
+    overflow: hidden;
 }
 
 header {
@@ -127,7 +128,7 @@ p {
 
 .opening-message {
     width: 40%;
-    line-height: 3;
+    line-height: 2;
     text-align: justify;
     transition: all ease-in-out;
     transition-duration: 400ms;
@@ -158,4 +159,42 @@ p {
 
 .footer-text {
     text-decoration: underline;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.contact-message {
+    width: 51%;
+    line-height: 2;
+    text-align: center;
+    transition: all ease-in-out;
+    transition-duration: 400ms;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    margin: 0 1em;
+    padding: 1em;
+}
+
+.team-message {
+    width: 50%;
+    line-height: 2;
+    text-align: center;
+    transition: all ease-in-out;
+    transition-duration: 400ms;
 }
