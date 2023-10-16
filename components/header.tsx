@@ -30,6 +30,12 @@ export default function Header () {
     return (
         <header>
             <title>SAAS</title>
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+                <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+            </head>
             <div className="logo">
                 <Link 
                     href="/"
